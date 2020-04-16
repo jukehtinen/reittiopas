@@ -1,7 +1,9 @@
 
 ### Reittiopas
 
-Reittiopas koodihaaste! Simppeli ASP.NET Core palvelu, joka hostaa Vue frontendiä (./Reitti.Web/ClientApp) ja tarjoaa APIn reittien hakemiseen.
+Reittiopas-koodihaaste! Simppeli ASP.NET Core palvelu, joka hostaa Vue frontendiä (./Reitti.Web/ClientApp) ja tarjoaa APIn reittien hakemiseen.
+
+Kaikki logiikka on oikeastaan ./Reitti.Web/Services/RouteService.cs filessä. Se parsii rettiopas.json filen ja ratkoo reittejä dijkstran algoritmilla.
 
 ### Running the app
 
